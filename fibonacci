@@ -1,0 +1,9 @@
+#Python 3
+#Input a number.
+#Output Fibonacci sequences <= number.
+
+num=eval(input('Input a number：'))
+a,b=0,1
+while a<=num:
+    print(a,end=' ')
+    a,b=b,a+b
