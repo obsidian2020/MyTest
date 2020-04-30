@@ -1,0 +1,14 @@
+#Python 3
+#Input a number.
+#Output Fibonacci(n). 
+
+
+def fib(x,a={0:0,1:1}):
+    if x in a: 
+        pass
+    else:
+        a[x]=fib(x-1)+fib(x-2)
+    return a[x]
+ 
+num=eval(input('Input a number：'))
+print(fib(n))
